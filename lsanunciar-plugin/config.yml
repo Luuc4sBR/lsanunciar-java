@@ -1,0 +1,4 @@
+Chat:
+  Formato-mensagem: '&f%player% enviou a mensagem:&r %mensagem%'
+ 
+ #Variável para chamar o nome do jogador: %player%

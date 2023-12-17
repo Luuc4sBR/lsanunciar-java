@@ -1,0 +1,9 @@
+name: LsAnunciar
+version: 1.0
+main: me.luuc4s.br.Main
+author: Luuc4s
+description: Um plugin de anunciar mensagens para o Minecraft.
+commands:
+  anunciar:
+    description: Anuncie sua mensagem.
+    usage: /anunciar
