@@ -19,5 +19,4 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onDisable() {
 		Bukkit.getConsoleSender().sendMessage(ChatColor.RED + "Plugin desabiliado com sucesso.");
-	}
-}
+	}}
