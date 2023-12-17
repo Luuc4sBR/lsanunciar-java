@@ -19,11 +19,9 @@ public class AnnounceCommand implements CommandExecutor {
 				if (sender instanceof Player) {
 					if (args.length > 0) {
 						String message = String.join(" ", args).replace("&", "§");
-						Bukkit.broadcastMessage((Main.main.getConfig().getString("Chat.Formato-mensagem")
-								.replace("&", "§").replace("%player%", p.getName())).replace("%mensagem%", message));
+						Bukkit.broadcastMessage((Main.main.getConfig().getString("Chat.Formato-mensagem").replace("&", "§").replace("%player%", p.getName())).replace("%mensagem%", message));
 					} else {
-						sender.sendMessage(ChatColor.GREEN
-								+ "Utilize: '/anunciar <mensagem>' para estar anunciando alguma mensagem.");
+						sender.sendMessage(ChatColor.GREEN + "Utilize: '/anunciar <mensagem>' para estar anunciando alguma mensagem.");
 					}} else {
 					sender.sendMessage(ChatColor.RED + "Apenas jogadores podem usar este comando.");
 				}
